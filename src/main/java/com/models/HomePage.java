@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends BasePage {
 
-    @FindBy(xpath = "//*[@id='pwr-js-header-right-bar']/div[3]/a")
+    @FindBy(xpath = "//div[contains(@class,'pwr-header-right-bar__item')]/a[@aria-label = 'Button Get Started']")
     private WebElement getStartedButton;
 
     public HomePage(WebDriver driver) {
