@@ -40,7 +40,7 @@ public class ContactPage extends HomePage {
     @FindBy(xpath = "//input[@type='checkbox']/..")
     private WebElement marketingCheckbox;
 
-    @FindBy(xpath = "//div[2]/div[2]/input")
+    @FindBy(xpath = "//input[@value = 'Send']")
     private WebElement sendButton;
 
     public ContactPage(WebDriver driver) {
@@ -64,12 +64,10 @@ public class ContactPage extends HomePage {
     }
 
     public void checkMarketingCheckbox() {
-
         marketingCheckbox.click();
     }
 
     public void clickSend() {
-
         sendButton.click();
     }
 }
