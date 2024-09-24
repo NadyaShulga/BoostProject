@@ -1,5 +1,8 @@
 Scenario #1:
 
+From: nshulga@boostb2b.com
+CC: devteam@boostb2b.com; qateam@boostb2b.com; busalystteam@boostb2b.com; productteam@boostb2b.com
+
 Subject: Re: Issue on website – FIX
 
 Hi Alice,
